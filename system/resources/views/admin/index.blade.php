@@ -59,7 +59,7 @@
                                                 <div class="demo-inline-spacing">
                                                     @foreach ($daftarTanggal as $item)
                                                         <div class="btn-group">
-                                                            <form action="{{ url('mahasiswa/beranda_mahasiswa') }}"
+                                                            <form action="{{ url('admin/beranda') }}"
                                                                 method="get">
                                                                 <input type="hidden" name="tanggal"
                                                                     value="{{ $item['tanggal'] }}">
